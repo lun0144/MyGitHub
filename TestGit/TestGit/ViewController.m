@@ -17,11 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Hello World");
+    [self test];
+}
+
+
+- (void)test{
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
